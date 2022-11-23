@@ -1,2 +1,2 @@
-# gabrielipadilha.github.io
-Currículo Jornada Dev
+# [gabrielipadilha.github.io](https://gabrielipadilha.github.io/)
+Currículo Jornada Dev.
