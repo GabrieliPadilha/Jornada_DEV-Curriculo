@@ -1,136 +1,124 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabrieli Padilha</title>
+    <title>Daniel Santos CV</title>
+
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="resume-contents">
         <section class="left-section">
-            <section left-section-content>
+            <div class="left-section-content">
                 <div class="profile">
-                    <img class="profile-image" src="img/profile-image.jpeg" alt="profile image">
+                    <img class="profile-image" src="img/profile-image.jpeg" alt="Profile image">
                     <p class="name">Gabrieli Padilha</p>
-                    <p class="profession">Product Disigner</p>
+                    <p class="profession">Product Designer</p>
                 </div>
                 <div class="contact-info">
                     <p class="left-title">Contato</p>
                     <ul>
-                        <li>
-                            <i class="fa fa-phone">+55 99999-11111</i>
+                        <li><i class="fa fa-phone"></i>(47) 9 9982-7169
                         </li>
-                        <li>
-                            <i class="fa fa-envelope">gabrielip.souza@outlook.com</i>
+                        <li><i class="fa fa-envelope"></i>gabrielip.souza@hotmail.com
                         </li>
-                        <li>
-                            <i class="fa fa-globe">www.site.com.br</i>
                         </li>
-                        <li>
-                            <i class="fa fa-github">GabrieliPdilha</i>
+                        <li><i class="fa fa-github"></i>https://github.com/GabrieliPadilha
                         </li>
                     </ul>
                 </div>
                 <div class="skills">
-                    <p class="left-title"> Skills</p>
+                    <p class="left-title">Skills</p>
                     <ul>
-                        <li>
-                            <p>Vue, GraphQL, SQL</p>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>UX/UI</li>
+                        <li><p>JavaScript, Vue.js, Node.js</p></li>
+                        <li><p>TypeScript</p></li>
+                        <li><p>SQL, Postgres, MongoDB</p></li>
+                        <li><p>GraphQL</p></li>
+                        <li><p>HTML, CSS, SASS</p></li>
+                        <li><p>Git & GitHub</p></li>
+                        <li><p>UX/UI</p></li>
                     </ul>
                 </div>
-            </section>
+            </div>
         </section>
+
         <section class="right-section">
             <div class="right-section-contents">
+                <!-- sobre mim -->
                 <section class="about gap">
                     <div class="right-title">Sobre Mim</div>
                     <p class="about-me-contents">
-                        Olá! Sou Gabrieli.<br/>
-                        <br/> Um pouco mais do que faço
-                        <br/>Quais são minhas competencias
+                        Olá! Me chamo Gabrieli.<br>
+                        Sou desenvolvedora de software há 2 anos e designer de produto a 6 meses.
                     </p>
                 </section>
+                <!-- fim sobre mim -->
+
+                <!-- experiencia -->
+                <section class="experience gap">
+                    <div class="right-title">Experiencia</div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Almode Sistemas</p>
+                            <p class="exp-time-period">10/2020 - 01/2022</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Desenvolvedora Fullstack Jr.</p>
+                            <p class="exp-desc">
+                                Resposável pelo desenvolvimento de uma plataforma de PDV e projetos a parte usando Java, Vue.js 2, TypeScript e Postgres
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Multiplier Sales Tech</p>
+                            <p class="exp-time-period">01/2022 - 06/2022</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Desenvolvedora Front-end</p>
+                            <p class="exp-desc">
+                                desenvolvimento de um sistema de forças de vendas usando Vue.js 3, GraphQL, UnoCSS.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">Multiplier Sales Tech</p>
+                            <p class="exp-time-period">06/2022 - Atualmente</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Product Designer</p>
+                            <p class="exp-desc">
+                                Responsável por agregar valor ao produto com melhorias no sistema e criando novas funcionalidades com base no metodo de Design Thinking <br/>
+                                Prototipação, entrevistas e testes com usuários
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim experiencia -->
+                <!-- cursos -->
+                <section class="awards gap">
+                    <div class="right-title">Cursos</div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Análise e desenvolvimento de Sistemas</p>
+                            <p class="awards-time-period">2019 - 2022</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim cursos -->
             </div>
-            <section class="experience gap">
-                <div class="right-title">Experiência</div>
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 01</p>
-                        <p class="exp-time-period">2021-Present</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Engenheiro de Software</p>
-                        <p class="exp-desc">
-                            Descreva aqui principais atividades
-                        </p>
-                    </div>
-                </div>
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">Empresa 02</p>
-                        <p class="exp-time-period">2021-Present</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Engenheiro de Software</p>
-                        <p class="exp-desc">
-                            Descreva aqui principais atividades
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="education gap">
-                <div class="right-title">Formação Academica</div>
-                <div class="education-contents">
-                    <div class="education-left">
-                        <p class="education-school-name">PUC Minas</p>
-                        <p class="educationp-time-period">2021~2023</p>
-                    </div>
-                    <div class="education-right">
-                        <p class="education-subject">Engenharia de Software</p>
-                        <p class="education-desc">
-                            Pós graduação em engenharia de software...
-                        </p>
-                    </div>
-                </div>
-                <div class="education-contents">
-                    <div class="education-left">
-                        <p class="education-school-name">Mackenzie</p>
-                        <p class="educationp-time-period">2018-2021</p>
-                    </div>
-                    <div class="education-right">
-                        <p class="education-subject">Big Data</p>
-                        <p class="education-desc">
-                            Pós graduação em Big Data...
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="awards gap">
-                <div class="right-title">Cursos</div>
-                <div class="awards-contents">
-                    <div class="awards-left">
-                        <p class="awards-name">EBAC</p>
-                        <p class="awards-desc">Junho de 2018</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-name">Curso de UX</p>
-                        <p class="awards-desc">Curso EBAC 2018</p>
-                    </div>
-                    <div class="awards-left">
-                        <p class="awards-name">EBAC</p>
-                        <p class="awards-desc">Junho de 2018</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-name">Curso de Análise de Dados</p>
-                        <p class="awards-desc">Curso EBAC 2019</p>
-                    </div>
-                </div>
-            </section>
         </section>
     </main>
 </body>
